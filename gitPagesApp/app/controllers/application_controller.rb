@@ -1,6 +1,6 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
-  include SessionsHelper
+  include Sessions2Helper
   helper_method :current_user
 
   def current_user
